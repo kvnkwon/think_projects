@@ -1,18 +1,11 @@
 {
-  "name": "site",
+  "name": "flappybird-landingpage",
   "version": "0.0.0",
-  "description": "landing page for flappy bird",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "description": "flappy bird landing page",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.8.11"
   },
-  "keywords": [
-    "flappy",
-    "bird",
-    "landing"
-  ],
-  "author": "Kevin Kwon",
-  "license": "ISC",
   "devDependencies": {
     "browserify": "^10.1.0",
     "gulp": "^3.8.11",
@@ -29,5 +22,10 @@
     "node-neat": "^1.7.1-beta1",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
